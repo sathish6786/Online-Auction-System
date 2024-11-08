@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+body{
+    background-color: #EFF7CF;
+}
+.winning-rusultcontainer{
+    width: 400px;
+    height: 500px;
+    background-color: #FFDF00;
+    border-radius: 10px;
+    position: absolute;
+    left: 35%;
+    margin-top: 40px;
+    
+}
+.winning-rusultcontainer img{
+    height: 280px;
+    width: 100%;
+    position: relative;
+    top: 0%;
+    padding-top: 2px;
+
+}
+.winning-rusultcontainer h5{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+.winning-rusultcontainer h3{
+   
+    text-align: center;
+    color: black;
+    font-weight: 700;
+   
+}
+.winning-rusultcontainer p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+.winning-rusultcontainer button{
+    position: absolute;
+    left: 37%;
+    padding: 5px;
+    background-color:#66D7D1;
+    color: black;
+    font-weight:500;
+    border: none;
+    border-radius: 5px;
+
+}
+.winning-rusultcontainer img:hover{
+    transition: all ease-in 0.5s;
+    transform: scale(1.2);
+
+}
+.details-popup{
+    width: 600px;
+    height:620px;
+    background-color: royalblue;
+    margin-top: 60px;
+    border-radius: 30px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+     left: 50%;
+     top: 0%; 
+    visibility: hidden;
+    transition: transform 0.2s,top 0.2s; 
+} 
+
+.details-popup i{
+    font-size: 30px;
+    color: #FFDF00;
+    position: absolute;
+    left: 30%;
+    margin-top: 3px;
+}
+.details-popup h5{
+    color: #FFf;
+    font-weight: 700;
+}
+.details-popup h4{
+    width: 160px;
+    height: 30px;
+    background-color:#FFf;
+    border-top-right-radius: 10PX;
+    font-size: 18px;
+    padding: 5px;
+
+}
+.details-popup b{
+    color: orange;
+}
+.left-section img{
+    width: 100px;
+    height: 100px;
+
+}
+.left-section {
+    height: 110px;
+    width: 300px;
+    background-color: #FFf;
+    display: flex;
+    margin-left: 10px;
+    border-top-right-radius: 18PX;
+    
+}
+.winner{
+    display: flex;
+    width: 400px;
+    height: 110px;
+    background-color: #FFf;
+    margin-left: 110px;
+    border-top-left-radius: 18PX;
+    
+}
+.winner img{
+    width: 70px;
+    height: 80px;
+    margin-top: 8px;
+}
+.winner h6{
+    font-size: 14px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.right-section{
+    width: 160px;
+}
+.winner b,span{
+    color: orange;
+}
+.details-popup h3{
+   display: inline-block;
+   font-size: 18px;
+   width: 150px;
+   height: 30px;
+   background-color: #FFf;
+   font-weight: 500;
+   padding: 5px;
+   margin-left: 450px;
+   border-top-left-radius: 18PX;
+   
+}
+.Bid-Ranking h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFf;
+    margin-top: 15px;
+}
+.Bid-Ranking table{
+    margin-left: 140px;
+    margin-top: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.Bid-Ranking table th{
+    color: #FFDF00;
+    padding: 10px;
+}
+.Bid-Ranking table tr{
+    color: #FFf;
+   
+    
+}
+.Bid-Ranking table td{
+    padding: 5px;
+}
+.Bid-Ranking table span{
+    color: yellow;
+    font-weight: 600;
+}
+.Bid-Ranking button{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+    right: 5%;
+    margin-left: 30px;
+    font-weight: 600;
+    
+}

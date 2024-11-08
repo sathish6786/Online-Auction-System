@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ .left-section img{
+    width: 430px;
+    height: 270px;
+    position: relative;
+    left: 3%;
+    margin-top: 40px;
+    
+ }
+ .left-section{
+    border: 1px solid #C2C1A5;
+    width: 450px;
+    height: 350px;
+    position: relative;
+    left: 3%;
+    margin-top: 40px;
+ }
+ .left-section button{
+    background-color: royalblue;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 45px;
+   
+ }
+ .left-section button:hover{
+    background-color:#FB6107;
+ }
+ .like-icons{
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ .right-section span{
+   position: relative;
+   left: 70%;
+   font-size: 18px;
+   font-weight:400;
+ }
+ .right-section{
+   display: inline-block;
+   position: absolute;
+   top: 30%;
+ }
+ .hashtag{
+   font-size: 18px;
+   font-weight:400;
+   color: gray;
+
+ }
+ .ratings span{
+   background-color:green;
+   font-size: 18px;
+   font-weight:bold;
+   color:#fff;
+  border-radius: 5px;
+  height: 10px;
+
+ }
+ table{
+   position: relative; left: 70%;
+   border:none;
+   background-color: rgb(241, 241, 241);
+   border-radius: 7PX;
+
+
+ }
+ 
+

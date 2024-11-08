@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color:black;
+    width: 100;
+    height: 70px;
+    
+
+}
+.logo{
+   width: 150px;
+   height: 57px;
+   padding: 7px;
+   display: inline-block;
+   cursor: pointer;
+}
+.profileimg{
+    width: 280px;
+    height: 180px;
+    padding: 10px;
+    position: relative;
+    left: 47%;
+
+    
+}
+
+
+.navigationbar a{
+    display: inline-block;
+    color:greenyellow;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 45%;
+    
+}
+.navigationbar a:hover{
+    color:#FCA326 ;
+    
+}  
+.search-items{
+    background-color:#FF983A;
+    max-width: 450px;
+    margin: 120 auto;
+    padding: 5px;
+    font-size: 18px;
+    position: relative;
+    left: 800px;
+  
+   
+}
+input{
+    border:1px solid gray;
+    box-shadow: 2px 2px 3px gray;
+    margin-top: 7px;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+    
+    
+    
+}
+input::placeholder{
+    font-size: 16px;
+    padding: 5px;
+    color: #b5b6b1;
+}
+.search-input.active input{
+    border-radius: 5px 5px 0 0;
+  }
+.search-icon{
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   line-height:58px;
+   width: 100px;
+   height: 100px;
+   font-size: 20px;
+   color:#4056F4;;
+
+}
+.search-items li{
+    list-style: none;
+    padding: 5px;
+    cursor: default;
+    border-radius: 5px;
+    display: none;
+}
+.search-items li:hover{
+    background-color: #68747D;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+}
+.search-items.search-input{
+    padding: 10px 8px;
+    max-height: 220px;
+    opacity: 0;
+    overflow-y: auto;
+    pointer-events: none;
+}
+.menubar{
+    background-color:#FF983A;
+    height: 70px;
+   
+}
+
+ul{
+   
+    display:inline-block;
+    margin-top: 5px;
+   
+    
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    width: 157px;
+    height: 40px;
+    
+}
+ul a{
+    display: block;
+    padding: 5px 5px;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    /* left: 20px; */
+}
+ul li ul.dropdown li{
+    display: block;
+
+}
+.dropdown a{
+    color: white;
+}
+.dropdown a:hover{
+    background-color: #FFA143;
+    color:black;
+    font-weight: 600;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background:#6C7882;
+    position: absolute;
+    z-index: 999;
+    display:none;
+    border-radius: 5px;
+    color: white;
+   
+}
+ul li a:hover{
+    background:white;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    transition:  ease all;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+ul li:hover ul.dropdown{
+    display:block;
+   
+}
+.carousel-inner{
+    width:120%;
+    margin-top: 10px;
+    position: relative;
+    right: 10%;
+    height: 60vh;
+   
+}
+.body{
+    margin-top: 10px;
+}
+#root{ 
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.box{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px;
+
+}
+.img-box{
+    width:100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.images:hover{
+   transition: all ease-in;
+   scale: 1.1;
+}
+.bottom{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+h2{
+    font-size: 20px;
+    color:#ff416c;
+    font-weight: bold;
+}
+button{
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color:#595A5E;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+}
+.bottom button:hover{
+    background-color:orangered;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
